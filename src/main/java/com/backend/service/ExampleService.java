@@ -13,7 +13,7 @@ import java.util.List;
 
 @RequiredArgsConstructor
 @Service
-public class MainService {
+public class ExampleService {
     private final ExampleRepository exampleRepository;
 
     public List<Example> findAll() {
