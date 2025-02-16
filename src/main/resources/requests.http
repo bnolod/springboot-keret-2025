@@ -1,0 +1,12 @@
+POST http://localhost:8080/api/example
+Content-Type: application/json
+
+{
+  "description" : "leírás"
+}
+
+###
+GET http://localhost:8080/api/example
+Accept: application/json
+
+###
